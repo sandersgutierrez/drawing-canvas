@@ -1,12 +1,16 @@
 {
     "asi": true,
     "bitwise": true,
+    "browser": true,
     "camelcase": true,
     "curly": true,
     "eqeqeq": true,
+    "esnext": true,
     "esversion": 6,
     "freeze": true,
+    "globalstrict": true,
     "latedef": true,
+    "moz": true,
     "strict": true,
     "undef": true
 }
