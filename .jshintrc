@@ -1,0 +1,12 @@
+{
+    "asi": true,
+    "bitwise": true,
+    "camelcase": true,
+    "curly": true,
+    "eqeqeq": true,
+    "esversion": 6,
+    "freeze": true,
+    "latedef": true,
+    "strict": true,
+    "undef": true
+}
