@@ -1,6 +1,32 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    -moz-user-select: none;
+}
+
+.toolbar {
+    background-color: #444;
+    color: white;
+    height: 50px;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.radcontrol {
+    background-color: #6f6f6f;
+    display: inline-block;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    width: 30px;
+}
+
+.radcontrol:hover {
+    background-color: #4f4f4f;
+    cursor: pointer;
 }
 
 .lienzo {
