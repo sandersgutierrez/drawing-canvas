@@ -5,7 +5,6 @@
     "camelcase": true,
     "curly": true,
     "eqeqeq": true,
-    "esnext": true,
     "esversion": 6,
     "freeze": true,
     "globalstrict": true,
