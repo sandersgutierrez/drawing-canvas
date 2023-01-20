@@ -10,7 +10,12 @@
         "type": "git",
         "url": "git+https://github.com/sandersgutierrez/drawing-canvas.git"
     },
-    "keywords": [],
+    "keywords": [
+        "canvas",
+        "js",
+        "javascript",
+        "drawing"
+    ],
     "author": "Sanders Gutiérrez <ing.sanders@gmail.com> (https://sandersgutierrez.github.io/)",
     "license": "MIT",
     "bugs": {
