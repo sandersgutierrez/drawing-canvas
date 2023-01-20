@@ -5,9 +5,9 @@ const { resolve } = require('node:path')
 
 module.exports = {
     entry: {
-        index: './src/index.js',
-        colors: './src/colors.js',
-        radius: './src/radius.js',
+        index: './src/app.js',
+        // colors: './src/colors.js',
+        // radius: './src/radius.js',
     },
     output: {
         path: resolve(__dirname, 'dist'),

@@ -6,8 +6,9 @@
     "scripts": {
         "format": "prettier --write .",
         "serve": "webpack serve --mode development",
-        "build": "webpack",
-        "prepare": "husky install"
+        "build": "webpack --mode production",
+        "prepare": "husky install",
+        "lint": "eslint --fix src/**/*.js"
     },
     "repository": {
         "type": "git",
@@ -29,6 +30,8 @@
         "@commitlint/cli": "17.4.2",
         "@commitlint/config-conventional": "17.4.2",
         "css-loader": "6.7.3",
+        "eslint": "8.32.0",
+        "eslint-config-prettier": "8.6.0",
         "html-webpack-plugin": "5.5.0",
         "husky": "8.0.3",
         "lint-staged": "13.1.0",
