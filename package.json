@@ -1,0 +1,23 @@
+{
+    "name": "@sandersgutierrez/drawing-canvas",
+    "version": "0.0.0",
+    "description": "Drawing Canvas",
+    "main": "index.js",
+    "scripts": {
+        "format": "prettier --write ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sandersgutierrez/drawing-canvas.git"
+    },
+    "keywords": [],
+    "author": "Sanders Gutiérrez <ing.sanders@gmail.com> (https://sandersgutierrez.github.io/)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/sandersgutierrez/drawing-canvas/issues"
+    },
+    "homepage": "https://github.com/sandersgutierrez/drawing-canvas#readme",
+    "devDependencies": {
+        "prettier": "2.8.3"
+    }
+}

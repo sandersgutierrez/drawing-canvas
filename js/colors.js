@@ -1,6 +1,19 @@
 'use strict'
 
-var colors = ['black', 'grey', 'white', 'red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet', 'pink', 'cyan']
+var colors = [
+    'black',
+    'grey',
+    'white',
+    'red',
+    'orange',
+    'yellow',
+    'green',
+    'blue',
+    'indigo',
+    'violet',
+    'pink',
+    'cyan',
+]
 var swatches = document.getElementsByClassName('swatch')
 
 for (let i = 0, n = swatches.length; i < n; i++) {
@@ -31,5 +44,5 @@ function setColor(color) {
 }
 
 setSwatch({
-    target: document.getElementsByClassName('swatch')[0]
+    target: document.getElementsByClassName('swatch')[0],
 })
